@@ -1,6 +1,6 @@
-# GitHub Satellite Workshop Day 2017
+# GitHub Universe Workshop Day 2017
 ## GitHub and the Internet of Things: Automate IoT Hardware
-Arduino and IoT information and code for GitHub Satellite Workshop Day 2017
+Arduino and IoT information and code for GitHub Universe Workshop Day 2017
 
 ### Prerequisites
 Before arriving to the workshop, please make sure you have the following items installed on your laptop:
@@ -34,7 +34,7 @@ Before arriving to the workshop, please make sure you have the following items i
 - [DHT](https://github.com/adafruit/DHT-sensor-library)
 
 ### Code samples
-- `HelloSatellite.ino` is located in the `HelloSatellite` folder
+- `HelloUniverse.ino` is located in the `HelloUniverse` folder
 - `WeatherThing.ino` and it's auxiliary files is located in the root folder
 
 ### Cool projects resources
