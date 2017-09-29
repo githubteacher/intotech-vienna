@@ -14,6 +14,7 @@ jobs:
           name: run
           command: |
             echo ":wave:"
+            cd platformio
             ls -la
 
       # - restore_cache:
