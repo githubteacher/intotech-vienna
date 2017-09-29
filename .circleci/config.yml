@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:2.7
       - image: circleci/node:7
 
-    working_directory: ~/platformio
+    working_directory: ~/arduino-workshop
 
     steps:
       - checkout
