@@ -1,23 +1,32 @@
-machine:
-  timezone:
-    America/Los_Angeles
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7
+      - image: circleci/node:7
 
-  python:
-    version:
-      2.7
+    working_directory: ~/arduino-workshop
 
-  node:
-    version:
-      7
+    steps:
+      - checkout
 
-  dependencies:
-    override:
-      - cd platformio
-      - npm install
-      - pip install -U platformio
+      - run:
+          name: change to platformio/
+          command: cd platformio
 
-  test:
-    override:
-      - cd platformio
-      - script/cibuild
-      - script/deploy
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "platformio" }}
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            npm install
+            pip install -U platformio
+
+      - save_cache:
+          paths:
+            - node_modules
+            - .platformio
+          key: v1-dependencies-{{ checksum "platformio" }}
