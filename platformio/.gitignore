@@ -2,8 +2,7 @@
 .pioenvs
 .piolibdeps
 
-test/*export.cpp
-
+package-lock.json
 
 # Created by https://www.gitignore.io/api/c++
 

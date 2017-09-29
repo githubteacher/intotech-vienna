@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# login
+pio account login -u ${PIO_USERNAME} -p ${PIO_PASSWORD}
+
+# clean target
+pio remote -a ${PIO_AGENT} run -e ${PIO_BOARD} -t clean
+
+# run tests
+pio remote -a ${PIO_AGENT} test -e ${PIO_BOARD}
+
+# logout when done
+pio account logout

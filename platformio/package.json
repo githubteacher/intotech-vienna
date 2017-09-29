@@ -1,10 +1,11 @@
 {
-  "name": "@github/arduino-sample",
+  "name": "@github/platformio-arduino-workshop",
   "version": "1.0.0",
   "description": "",
   "keywords": [
     "arduino",
-    "arduino-sample"
+    "arduino-workshop",
+    "platformio"
   ],
   "license": "MIT",
   "author": {
@@ -19,10 +20,10 @@
       "url": "github.com/stoe"
     }
   ],
-  "homepage": "https://github.com/stoe/arduino-sample#readme",
-  "repository": "stoe/arduino-sample",
+  "homepage": "https://github.com/universeworkshops/arduino-workshop/platformio#readme",
+  "repository": "universeworkshops/arduino-workshop",
   "bugs": {
-    "url": "https://github.com/stoe/arduino-sample/issues"
+    "url": "https://github.com/universeworkshops/arduino-workshop/issues"
   },
   "engines": {
     "node": ">=7"
