@@ -14,6 +14,7 @@ jobs:
           name: run
           command: |
             echo ":wave:"
+            ls -la
 
       # - restore_cache:
       #     keys:
