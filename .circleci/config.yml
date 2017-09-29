@@ -5,24 +5,29 @@ jobs:
       - image: circleci/python:2.7
       - image: circleci/node:7
 
-    working_directory: ./platformio
+    working_directory: ~/platformio
 
     steps:
       - checkout
 
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "platformio" }}
-          - v1-dependencies-
-
       - run:
-          name: install dependencies
+          name: run
           command: |
-            npm install
-            pip install -U platformio
+            echo ":wave:"
 
-      - save_cache:
-          paths:
-            - node_modules
-            - .platformio
-          key: v1-dependencies-{{ checksum "platformio" }}
+      # - restore_cache:
+      #     keys:
+      #     - v1-dependencies-{{ checksum "platformio" }}
+      #     - v1-dependencies-
+      #
+      # - run:
+      #     name: install dependencies
+      #     command: |
+      #       npm install
+      #       pip install -U platformio
+      #
+      # - save_cache:
+      #     paths:
+      #       - node_modules
+      #       - .platformio
+      #     key: v1-dependencies-{{ checksum "platformio" }}
