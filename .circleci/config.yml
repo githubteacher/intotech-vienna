@@ -11,25 +11,22 @@ jobs:
       - checkout
 
       - run:
-          name: run
-          command: |
-            echo ":wave:"
-            cd platformio
-            ls -la
+          name: change to platformio/
+          command: cd platformio
 
-      # - restore_cache:
-      #     keys:
-      #     - v1-dependencies-{{ checksum "platformio" }}
-      #     - v1-dependencies-
-      #
-      # - run:
-      #     name: install dependencies
-      #     command: |
-      #       npm install
-      #       pip install -U platformio
-      #
-      # - save_cache:
-      #     paths:
-      #       - node_modules
-      #       - .platformio
-      #     key: v1-dependencies-{{ checksum "platformio" }}
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "platformio" }}
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            npm install
+            pip install -U platformio
+
+      - save_cache:
+          paths:
+            - node_modules
+            - .platformio
+          key: v1-dependencies-{{ checksum "platformio" }}
