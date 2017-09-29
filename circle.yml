@@ -12,9 +12,12 @@ machine:
 
   dependencies:
     override:
+      - cd platformio
       - npm install
       - pip install -U platformio
 
   test:
     override:
-      - platformio/script.cibuild
+      - cd platformio
+      - script/cibuild
+      - script/deploy
