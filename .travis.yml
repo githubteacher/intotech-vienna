@@ -16,19 +16,16 @@ cache:
     - "~/node_modules"
 
 before_install:
-  - ls
   - cd platformio
-  - ls
 
 install:
-  - ls
-  # - npm install
-  # - pip install -U platformio
+  - npm install
+  - pip install -U platformio
 
 # test
 script:
-  # - platformio/script/cibuild
+  - platformio/script/cibuild
 
 # deploy
 after_success:
-  # - platformio/script/deploy
+  - platformio/script/deploy

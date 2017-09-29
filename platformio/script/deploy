@@ -7,11 +7,11 @@ const Ora = require('ora');
 
 const ghStatus = (status, id) => {
   const owner = 'stoe';
-  const repo = 'arduino-workshop';
+  const repo = 'arduino-sample';
 
   let cmd = `repos/${owner}/${repo}/deployments`;
   let body = {
-    ref: process.env.CIRCLE_SHA1,
+    ref: process.env.TRAVIS_PULL_REQUEST_SHA,
     description: 'Deploying to Arduino...',
     auto_merge: false,    // eslint-disable-line camelcase
     required_contexts: [] // eslint-disable-line camelcase
@@ -27,7 +27,7 @@ const ghStatus = (status, id) => {
 
   return new Promise((resolve, reject) => {
     got(cmd, {
-      token: process.env.PIO_GITHUB_TOKEN,
+      token: process.env.GH_TOKEN,
       method: 'POST',
       body,
       headers: {
@@ -43,7 +43,7 @@ const ora = new Ora({
   text: 'pio remote upload'
 }).start();
 
-if (!process.env.CI_PULL_REQUEST) {
+if (!process.env.TRAVIS_PULL_REQUEST) {
   ora.info('not a pull request.');
   ora.stop();
   process.exit(0);
