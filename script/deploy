@@ -13,7 +13,7 @@ const ghStatus = (status, id) => {
   let body = {
     ref: process.env.TRAVIS_PULL_REQUEST_SHA,
     description: 'Deploying to Arduino...',
-    auto_merge: false,    // eslint-disable-line camelcase
+    auto_merge: false, // eslint-disable-line camelcase
     required_contexts: [] // eslint-disable-line camelcase
   };
 

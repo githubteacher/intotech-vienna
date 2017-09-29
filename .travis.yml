@@ -13,10 +13,6 @@ node_js:
 cache:
   directories:
     - "~/.platformio"
-    - "~/node_modules"
-
-before_install:
-  - cd platformio
 
 install:
   - npm install
@@ -24,8 +20,8 @@ install:
 
 # test
 script:
-  - platformio/script/cibuild
+  - script/cibuild
 
 # deploy
 after_success:
-  - platformio/script/deploy
+  - 'script/deploy'
