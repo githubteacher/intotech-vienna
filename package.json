@@ -1,0 +1,50 @@
+{
+  "name": "@github/arduino-sample",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "arduino",
+    "arduino-sample"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "GitHub Professional Services",
+    "email": "services@github.com",
+    "url": "https://services.github.com"
+  },
+  "collaborators": [
+    {
+      "name": "Stefan Stölzle",
+      "email": "stefan@github.com",
+      "url": "github.com/stoe"
+    }
+  ],
+  "homepage": "https://github.com/stoe/arduino-sample#readme",
+  "repository": "stoe/arduino-sample",
+  "bugs": {
+    "url": "https://github.com/stoe/arduino-sample/issues"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "bin": {},
+  "main": "",
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "execa": "^0.8.0",
+    "gh-got": "^6.0.0",
+    "ora": "^1.3.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 2
+  }
+}
