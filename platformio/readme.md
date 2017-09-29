@@ -31,11 +31,11 @@ $ travis env set PIO_PASSWORD <PIO_PASSWORD> -r <GITHUB_USERNAME>/arduino-worksh
 
 :information_source: http://docs.platformio.org/en/latest/userguide/account/cmd_login.html
 
-###### 4. `GITHUB_TOKEN`
+###### 4. `PIO_GITHUB_TOKEN`
 [Create a GitHub token with `user` and `repo` scopes](https://github.com/settings/tokens/new?scopes=repo,user&description=platformio-deploy) to be used in [`script/deploy`](./script/deploy) and set it as variable in Travis CI via
 
 ```sh
-travis env set GH_TOKEN <GITHUB_TOKEN> -r <GITHUB_USERNAME>/arduino-workshop
+travis env set GH_TOKEN <PIO_GITHUB_TOKEN> -r <GITHUB_USERNAME>/arduino-workshop
 ```
 
 ###### 5. Start the remote agent
