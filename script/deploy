@@ -7,7 +7,7 @@ const Ora = require('ora');
 
 const ghStatus = (status, id) => {
   const owner = 'universeworkshops';
-  const repo = 'arduino-sample';
+  const repo = 'arduino-workshop';
 
   let cmd = `repos/${owner}/${repo}/deployments`;
   let body = {
