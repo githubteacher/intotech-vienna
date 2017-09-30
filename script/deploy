@@ -55,7 +55,7 @@ ghStatus()
       .shell(`pio account login -u ${process.env.PIO_USERNAME} -p ${process.env.PIO_PASSWORD}`)
       .then(() => {
         execa
-          .shell(`pio remote --agent ${process.env.PIO_AGENT} run -e ${process.env.PIO_BORAD} -t upload -s`)
+          .shell(`pio remote --agent ${process.env.PIO_AGENT} run -e ${process.env.PIO_BOARD} -t upload -s`)
           .then(() => {
             ghStatus('success', id);
             ora.succeed();
