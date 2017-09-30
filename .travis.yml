@@ -26,10 +26,9 @@ install:
   - npm install
   - pip install -U platformio
 
-# test
-script:
-  - script/cibuild
-
-# deploy
-after_success:
-  - 'script/deploy'
+jobs:
+  include:
+  - stage: test
+    script: script/cibuild
+  - stage: deploy
+    script: script/deploy
