@@ -43,7 +43,7 @@ const ora = new Ora({
   text: 'pio remote upload'
 }).start();
 
-if (!process.env.TRAVIS_PULL_REQUEST) {
+if (process.env.TRAVIS_PULL_REQUEST === 'false') {
   ora.info('not a pull request.');
   ora.stop();
   process.exit(0);
