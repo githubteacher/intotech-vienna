@@ -88,8 +88,8 @@ void loop() {
   lcd.write((uint8_t)2);
   // write custom character 3
   lcd.write((uint8_t)3);
-  // Displays "Satellite"
-  lcd.write("  Satellite");
+  // Displays "Universe"
+  lcd.write("  Universe");
 
   delay(1000);
   
@@ -99,8 +99,8 @@ void loop() {
   lcd.write((uint8_t)4);
   // write custom character 3
   lcd.write((uint8_t)3);
-  // Displays "Satellite"
-  lcd.write("  Satellite");
+  // Displays "Universe"
+  lcd.write("  Universe");
 
   delay(1000);
 }
