@@ -34,8 +34,8 @@ Before arriving to the workshop, please make sure you have the following items i
 - [DHT](https://github.com/adafruit/DHT-sensor-library)
 
 ### Code samples
-- `HelloUniverse.ino` is located in the `HelloUniverse` folder
-- `WeatherThing.ino` and it's auxiliary files is located in the root folder
+- `HelloUniverse.ino` is located in the `HelloUniverse` directory
+- `WeatherThing.ino` is located in the `WeatherThing` directory
 
 ### Cool projects resources
 Great websites to find cool projects to build include:
