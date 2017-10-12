@@ -4,8 +4,8 @@
 namespace Display {
   void setup();
   void print_all();
-  void print_wag_1();
-  void print_wag_2();
+  void print_wave_1();
+  void print_wave_2();
 }
 
 #endif

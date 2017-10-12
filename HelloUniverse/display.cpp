@@ -101,12 +101,12 @@ namespace Display {
     lcd.write("  Universe");
   }
 
-  void print_wag_1() {
+  void print_wave_1() {
     lcd.setCursor(0, 1);
     lcd.write((uint8_t)2);
   }
 
-  void print_wag_2() {
+  void print_wave_2() {
     lcd.setCursor(0, 1);
     lcd.write((uint8_t)4);
   }
