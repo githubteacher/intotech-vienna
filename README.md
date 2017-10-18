@@ -48,4 +48,4 @@ Great websites to find cool projects to build include:
 - [Customer character generator](http://fusion94.org/lcdchargen/) - make your own custom glyphs in a web UI and get the code
 
 ### Slide deck
-- [Slide deck](TBD) with instructions for assembly
+- [Slide deck](https://speakerdeck.com/allthedoll/github-and-the-internet-of-things-automate-iot-hardware-1) with instructions for assembly
