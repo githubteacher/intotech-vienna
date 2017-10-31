@@ -21,7 +21,6 @@ Before arriving to the workshop, please make sure you have the following items i
   - Note: this model is a 25-turn, versus the lower-turn number trim pots we used in the demo; either is fine, you just turn one more than the other--the important thing is is that it's 10k (20k would also work)
 - 1 [330 Ohm resistor](https://vetco.net/products/330-ohm-1-4-watt-resistor)
   - Note: this model is a 1/4 watt, but you could use a smaller wattage if available; the LCD we're using wants about 300 Ohms
-- [10k Ohm resistor](https://vetco.net/products/10k-ohm-1-4-watt-1-metal-film-resistor) for use with LCD
 - 1 [DHT22 sensor](http://www.mouser.com/ProductDetail/Adafruit/385/?qs=sGAEpiMZZMsMyYRRhGMFNiK6mi%2f0qhAsScidaIcRRdw%3d)
   - DHT11 would work as well, but isn't as accurate
 - 1 [22k Ohm resistor](https://vetco.net/products/22k-ohm-1-4-watt-resistor) for use with DHT22
