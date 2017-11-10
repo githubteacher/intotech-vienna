@@ -41,12 +41,12 @@ namespace Display {
     lcd.setCursor(0, 0);
     lcd.write((uint8_t)0);
     lcd.write((uint8_t)1);
-    lcd.write("  GitHub");
+    lcd.write("  IntoTech");
 
     lcd.setCursor(0, 1);
     lcd.write((uint8_t)2);
     lcd.write((uint8_t)3);
-    lcd.write("  Universe");
+    lcd.write("  Vienna");
   }
 
   void print_wave_1() {
