@@ -9,7 +9,6 @@ This workshop is supported with material by [Conrad Electronics](https://www.con
 ### Prerequisites
 These items are used for this workshop:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Liquid Crystal Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
 - [DHT Library](https://github.com/adafruit/DHT-sensor-library)
 - [DHT](https://github.com/adafruit/DHT-sensor-library)
 
