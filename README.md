@@ -9,8 +9,8 @@ This workshop is supported with material by [Conrad Electronics](https://www.con
 ### Prerequisites
 These items are used for this workshop:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [DHT Library](https://github.com/adafruit/DHT-sensor-library)
-- [DHT](https://github.com/adafruit/DHT-sensor-library)
+- DHT Library (should come with the Arduino IDE)
+  - Learn about libraries and how to install them [here](https://www.arduino.cc/en/Guide/Libraries#toc2)
 
 ### Parts shopping list (to build at home if you want)
 - 1 [16x2 Character LCD Display](https://vetco.net/products/16x2-character-lcd-display)
