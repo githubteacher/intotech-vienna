@@ -1,16 +1,16 @@
-# GitHub Universe Workshop Day 2017
-## GitHub and the Internet of Things: Automate IoT Hardware
-Arduino and IoT information and code for GitHub Universe Workshop Day 2017
+# IntoTech 2017
+## Arduino Workshop
+Let’s break the ice and get started in the makers’ movement by assembling a pre-designed hardware project from scratch! Come join as as we hit the ground running by prototyping your very own electronics project using Arduino and C++. No electronics or programming knowledge is required! 
+
+Requirements: Please bring along a laptop. You don’t need to have any software preinstalled, however please download the [Arduino installer](https://www.arduino.cc/en/Main/Software) ahead of the workshop. We recommend listening to the The IoT Talk from Jamie happening directly before this workshop, as they are connected! 
+
+This workshop is supported with material by [Conrad Electronics](https://www.conrad.at/).
 
 ### Prerequisites
-Before arriving to the workshop, please make sure you have the following items installed on your laptop:
+These items are used for this workshop:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [PlatformIO](http://docs.platformio.org/en/latest/installation.html)
-  - [Python 2.7](https://www.python.org/downloads/) - note that Python 3 will not work with PlatformIO
-  - [Atom](https://atom.io/) with [PlatformIO package](http://platformio.org/get-started/ide?install) and [Clang](http://clang.llvm.org/) if required (Windows users)
-- [Travis](https://docs.travis-ci.com/user/getting-started/) familiarity, especially for [C++](https://docs.travis-ci.com/user/languages/cpp/)
-- [Liquid Crystal Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
-- [DHT Library](https://github.com/adafruit/DHT-sensor-library)
+- DHT Library (should come with the Arduino IDE)
+  - Learn about libraries and how to install them [here](https://www.arduino.cc/en/Guide/Libraries#toc2)
 
 ### Parts shopping list (to build at home if you want)
 - 1 [16x2 Character LCD Display](https://vetco.net/products/16x2-character-lcd-display)
@@ -28,23 +28,10 @@ Before arriving to the workshop, please make sure you have the following items i
 - 2 [male-male jumper jumper wire packs](https://vetco.net/products/7-male-male-rainbow-breadboard-jumper-wire-for-arduino-10-pack)
   - Can also be purchased [here](http://www.mouser.co.uk/ProductDetail/MikroElektronika/MIKROE-513/?qs=sGAEpiMZZMuCISx1W3tuzqgZjGmk8QdS)
 
-### Libraries used for WeatherThing
-- [Liquid Crystal Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
-- [DHT](https://github.com/adafruit/DHT-sensor-library)
-
-### Code samples
-- `HelloUniverse.ino` is located in the `HelloUniverse` directory
-- `WeatherThing.ino` is located in the `WeatherThing` directory
-
-### Cool projects resources
-Great websites to find cool projects to build include:
-- [hackster.io](https://www.hackster.io/)
-- [diyhacking.com](https://diyhacking.com/diy-projects/arduino-projects/)
-- [Arduino Playground](https://playground.arduino.cc/Projects/Ideas)
-
 ### Resources
 - [Glyphduino library](http://rastating.github.io/Glyphduino/) - library with pre-made glyphs
 - [Customer character generator](http://fusion94.org/lcdchargen/) - make your own custom glyphs in a web UI and get the code
 
 ### Slide deck
-- [Slide deck](https://speakerdeck.com/allthedoll/github-and-the-internet-of-things-automate-iot-hardware-1) with instructions for assembly
+- Slide deck with instructions for the [Arduino Workshop](https://speakerdeck.com/allthedoll/intotech-vienna-2017-arduino-workshop#)
+- Slide deck from [The Internet of Things: Connecting your world for a positive impact](https://speakerdeck.com/allthedoll/the-internet-of-things-connecting-your-world-for-a-positive-impact#)
