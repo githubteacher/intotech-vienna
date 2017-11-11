@@ -33,4 +33,5 @@ These items are used for this workshop:
 - [Customer character generator](http://fusion94.org/lcdchargen/) - make your own custom glyphs in a web UI and get the code
 
 ### Slide deck
-- Slide deck with instructions for assembly to be uploaded shortly before/after the workshop
+- Slide deck with instructions for the [Arduino Workshop](https://speakerdeck.com/allthedoll/intotech-vienna-2017-arduino-workshop#)
+- Slide deck from [The Internet of Things: Connecting your world for a positive impact](https://speakerdeck.com/allthedoll/the-internet-of-things-connecting-your-world-for-a-positive-impact#)
