@@ -4,7 +4,7 @@ Let’s break the ice and get started in the makers’ movement by assembling a 
 
 Requirements: Please bring along a laptop. You don’t need to have any software preinstalled, however please download the [Arduino installer](https://www.arduino.cc/en/Main/Software) ahead of the workshop. We recommend listening to the The IoT Talk from Jamie happening directly before this workshop, as they are connected! 
 
-This workshop is supported with material by [Conrad Electronics](https://www.conrad.at/)
+This workshop is supported with material by [Conrad Electronics](https://www.conrad.at/).
 
 ### Prerequisites
 These items are used for this workshop:
